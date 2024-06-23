@@ -1,0 +1,70 @@
+    main {
+        padding: 20px 100px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row {
+        margin: 10px 0;
+    }
+
+    .hasil,
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 3px;
+        outline: none;
+    }
+
+    button[type="submit"],
+        button[type="button"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button[type="submit"]:hover,
+        button[type="button"]:hover {
+        background-color: #555;
+    }
+
+    footer {
+        margin-top: 350px;
+    }
+
+    .table {
+        margin: 20px 0;
+    }
+    
+    .lihat {
+        background-color: #333 !important;
+        color: white !important;
+        text-decoration: none !important;
+        border-radius: 5px !important;
+        border: 2px solid transparent !important;
+    }
+    
+    .lihat:hover {
+        background-color: #999 !important;
+        color: black !important;
+    }
+    
+    .dist {
+        margin: 2px 0;
+    }
